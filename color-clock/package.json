@@ -1,0 +1,27 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "browser clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options spec=,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revarcline/npm-lab.git"
+  },
+  "keywords": [
+    "clock",
+    "browser",
+    "color"
+  ],
+  "author": "flatiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revarcline/npm-lab/issues"
+  },
+  "homepage": "https://github.com/revarcline/npm-lab#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
